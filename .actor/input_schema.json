@@ -1,0 +1,23 @@
+{
+  "title": "Google Maps Lead Extractor Inputs",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "searchQuery": {
+      "title": "Search Query / Keyword",
+      "type": "string",
+      "description": "Target keyword and location (e.g. 'Dentists in Chicago', 'Restaurants in London')",
+      "editor": "textfield",
+      "default": "Coffee Shops in New York"
+    },
+    "maxResults": {
+      "title": "Max Results Limit",
+      "type": "integer",
+      "description": "Maximum number of business leads to extract",
+      "default": 50,
+      "minimum": 5,
+      "maximum": 500
+    }
+  },
+  "required": ["searchQuery"]
+}

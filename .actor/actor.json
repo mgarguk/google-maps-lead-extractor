@@ -1,0 +1,12 @@
+{
+  "actorSpecification": 1,
+  "name": "google-maps-lead-extractor",
+  "title": "Google Maps B2B Lead Extractor & Phone/Website Scraper",
+  "description": "Extract local business names, phone numbers, websites, address, rating, and review counts for sales leads and outreach.",
+  "version": "1.0",
+  "meta": {
+    "templateId": "python-start"
+  },
+  "input": "./input_schema.json",
+  "dockerfile": "./Dockerfile"
+}
