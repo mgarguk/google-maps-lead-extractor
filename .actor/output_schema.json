@@ -1,0 +1,35 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Google Maps Lead Extractor Output Schema",
+  "type": "object",
+  "properties": {
+    "business_name": {
+      "type": "string",
+      "description": "Name of the local business"
+    },
+    "search_query": {
+      "type": "string",
+      "description": "The search keyword used"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Contact phone number"
+    },
+    "website": {
+      "type": "string",
+      "description": "Official business website URL"
+    },
+    "rating": {
+      "type": "string",
+      "description": "Star rating out of 5.0"
+    },
+    "review_count": {
+      "type": "string",
+      "description": "Total number of reviews"
+    },
+    "snippet": {
+      "type": "string",
+      "description": "Address and snippet summary"
+    }
+  }
+}
