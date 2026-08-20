@@ -4,32 +4,46 @@
   "type": "object",
   "properties": {
     "business_name": {
+      "title": "Business Name",
       "type": "string",
-      "description": "Name of the local business"
+      "description": "Name of the local business",
+      "template": "{{value}}"
     },
     "search_query": {
+      "title": "Search Query",
       "type": "string",
-      "description": "The search keyword used"
+      "description": "The search keyword used",
+      "template": "{{value}}"
     },
     "phone": {
+      "title": "Phone Number",
       "type": "string",
-      "description": "Contact phone number"
+      "description": "Contact phone number",
+      "template": "{{value}}"
     },
     "website": {
+      "title": "Website URL",
       "type": "string",
-      "description": "Official business website URL"
+      "description": "Official business website URL",
+      "template": "{{value}}"
     },
     "rating": {
+      "title": "Rating",
       "type": "string",
-      "description": "Star rating out of 5.0"
+      "description": "Star rating out of 5.0",
+      "template": "{{value}}"
     },
     "review_count": {
+      "title": "Review Count",
       "type": "string",
-      "description": "Total number of reviews"
+      "description": "Total number of reviews",
+      "template": "{{value}}"
     },
     "snippet": {
+      "title": "Address Snippet",
       "type": "string",
-      "description": "Address and snippet summary"
+      "description": "Address and snippet summary",
+      "template": "{{value}}"
     }
   }
 }
